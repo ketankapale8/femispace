@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "main",
-    "slug": "main",
+    "name": "femiSpace",
+    "slug": "femispace",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "femiSpaceApp.demo",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0165fd67-ab5c-4550-8e7a-8086d5601f18"
+      }
     }
   }
 }
